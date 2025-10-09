@@ -76,15 +76,15 @@ $RECYCLE.BIN/
 # Misc.
 ############################
 
-*#
-ssl
-.idea
-.vscode
-nbproject
-public/uploads/*
-!public/uploads/.gitkeep
-.tsbuildinfo
-.eslintcache
+# *#
+# ssl
+# .idea
+# .vscode
+# nbproject
+# public/uploads/*
+# !public/uploads/.gitkeep
+# .tsbuildinfo
+# .eslintcache
 
 ############################
 # Node.js

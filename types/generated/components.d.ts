@@ -3,10 +3,11 @@ import type { Schema, Struct } from '@strapi/strapi';
 export interface HomeHomePage extends Struct.ComponentSchema {
   collectionName: 'components_home_home_pages';
   info: {
+    description: '';
     displayName: 'homePage';
   };
   attributes: {
-    heroSlider: Schema.Attribute.Component<'home.slider', false>;
+    heroSlider: Schema.Attribute.Component<'home.slider', true>;
     seo: Schema.Attribute.Component<'seo.seo-fields', false>;
   };
 }
