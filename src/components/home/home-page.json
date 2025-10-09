@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_home_home_pages",
+  "info": {
+    "displayName": "homePage"
+  },
+  "options": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo-fields"
+    },
+    "heroSlider": {
+      "displayName": "slider",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.slider"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_home_sliders",
+  "info": {
+    "displayName": "slider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "badge": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "bgImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
