@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_product_simple_variants",
+  "info": {
+    "displayName": "simple variants"
+  },
+  "options": {},
+  "attributes": {
+    "ref_code": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

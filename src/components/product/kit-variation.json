@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_product_kit_variations",
+  "info": {
+    "displayName": "KitVariation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ref_code": {
+      "type": "string",
+      "required": true
+    },
+    "kit_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.kit-item"
+    }
+  }
+}

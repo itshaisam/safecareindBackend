@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_product_kit_items",
+  "info": {
+    "displayName": "KitItem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item_description": {
+      "type": "string",
+      "required": true
+    },
+    "quantity": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

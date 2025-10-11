@@ -4,7 +4,8 @@
   "info": {
     "singularName": "product",
     "pluralName": "products",
-    "displayName": "product"
+    "displayName": "product",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -32,11 +33,12 @@
       "type": "richtext"
     },
     "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "seo": {
       "type": "component",
@@ -48,6 +50,21 @@
       "relation": "oneToMany",
       "target": "api::subcategory.subcategory",
       "mappedBy": "product"
+    },
+    "code": {
+      "type": "string"
+    },
+    "simpleVariants": {
+      "displayName": "simple variants",
+      "type": "component",
+      "repeatable": true,
+      "component": "product.simple-variants"
+    },
+    "kit_variations": {
+      "displayName": "KitVariation",
+      "type": "component",
+      "repeatable": true,
+      "component": "product.kit-variation"
     }
   }
 }
